@@ -51,5 +51,11 @@ so the two element must be the same dimentions
 >output =  [4 10 18]
 
 this bec [1x4 2x5 3x6]
+NOTE the . can be used for power "^" or for division "/"
+>output = x./y
+
+>output = [0.25 0.4 0.5]
+
+ie output is [1/4 2/5 3/6]
 
  
