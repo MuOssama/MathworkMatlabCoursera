@@ -1,0 +1,6 @@
+yrs=2;
+debt=1000;
+for yr = 1:1:yrs
+debt=debt+debt*0.1;
+end
+debt=debt
