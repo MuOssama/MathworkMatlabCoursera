@@ -18,9 +18,9 @@ bec % in matlab is used for comments
 ### Matrices operators
 #### Addition and substractions
 the matrix must have the same dimentions
->x=[1 2 3]; % x is 3 rows 1 coulmns
+>x=[1 2 3]; % x is 1 rows 3 coulmns
 
->y=[4 5 6]; % y is 3 rows 1 coulmns
+>y=[4 5 6]; % y is 1 rows 3 coulmns
 
 >output = x+y
 
@@ -29,5 +29,19 @@ the matrix must have the same dimentions
 you can use size() func to know the size of the array
 >size(x)
 
->x = [3 1]
+>x =  1 3
+
+#### multiplication and division
+in matlab wde have ton types of multiplictions
+x*y and x.*y
+the x*y is the ordanary multiplication
+>output = x*y
+
+>dimention error as x is 1x3 and y 1x3 >>> it must be mx3 and 3xn and the size of the output will be mxn
+
+you can transpoze the y matrix to be 3x1 by using y'
+>output = x*y'
+
+>output = [32] the answer is matrix of 1x1 as we expected
+
  
