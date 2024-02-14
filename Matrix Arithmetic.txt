@@ -1,0 +1,7 @@
+A = [1:5; 6:10; 11:15; 16:20];
+coulmns =   A(1,1:end)'
+coulmns = coulmns./coulmns
+rows = A(1:end,1)'
+rows = rows./rows
+%we have obtaind rows [1 1 1 1 ] and coulmns [1 1 1 1 1]'
+result = rows *A*coulmns
