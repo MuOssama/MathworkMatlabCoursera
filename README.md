@@ -1,2 +1,3 @@
-# MathworkMatlabCoursera
-mathworks Matlab Coursera course solution
+**MathworkMatlabCoursera**
+# mathworks Matlab Coursera course solution
+>Solutions
