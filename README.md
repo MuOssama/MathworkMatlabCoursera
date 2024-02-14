@@ -1,7 +1,7 @@
 # **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
 >**Syntax**
-### arithmatic operators
+### Arithmatic operators
 #### - + / * %
 like any prrogramming language
 >output = x + y   
@@ -31,7 +31,7 @@ you can use size() func to know the size of the array
 
 >x =  1 3
 
-#### multiplication and division
+#### multiplication
 in matlab wde have ton types of multiplictions
 x*y and x.*y
 the x*y is the ordanary multiplication
@@ -43,5 +43,13 @@ you can transpoze the y matrix to be 3x1 by using y'
 >output = x*y'
 
 >output = [32] the answer is matrix of 1x1 as we expected
+
+the x.*y is used to multiply every element to the corresponding  element in the other
+so the two element must be the same dimentions
+>output = x.*y
+
+>output =  [4 10 18]
+
+this bec [1x4 2x5 3x6]
 
  
