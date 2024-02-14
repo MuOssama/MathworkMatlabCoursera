@@ -1,4 +1,4 @@
-# MathworkMatlabCoursera**
+# **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
 >**Syntax**
 ### arithmatic operators
