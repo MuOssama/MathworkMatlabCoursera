@@ -1,5 +1,5 @@
 # MathworkMatlabCoursera**
-## mathworks Matlab Coursera course solution
+## Mathworks Matlab Coursera course solution
 >**Syntax**
 ### arithmatic operators
 #### - + / * %
@@ -25,4 +25,9 @@ the matrix must have the same dimentions
 >output = x+y
 
 >output = [ 5 7 9]
+
+you can use size() func to know the size of the array
+>size(x)
+
+>x = [3 1]
  
