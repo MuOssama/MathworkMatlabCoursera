@@ -102,7 +102,10 @@ you can output with fprintf() like in c programming
 remember %d is to output an integer
 remember...
 %d integer
+%u unsigned integer
 %f float
+%c char
+%s string
 %s string
 
 ### 5 Plotting
