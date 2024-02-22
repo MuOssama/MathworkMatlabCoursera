@@ -1,0 +1,7 @@
+function [mmr, mmm] = minimax(M)
+    row_max = max(M, [], 2);
+    row_min = min(M, [], 2);
+    mmr = abs(row_max - row_min)';
+    
+    mmm = max(max(M)) - min(min(M));
+end
