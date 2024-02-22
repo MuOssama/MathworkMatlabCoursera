@@ -100,12 +100,12 @@ you can output with fprintf() like in c programming
 >fprintf('the value you entered %d', x)
 
 remember %d is to output an integer
-remember...
+remember... \
 %d integer \
-%u unsigned integer\
-%f float\
-%c char\
-%s string\
+%u unsigned integer \
+%f float \
+%c char \
+%s string \
 
 ### 5 Plotting
 
