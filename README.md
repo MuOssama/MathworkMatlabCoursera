@@ -92,3 +92,20 @@ than writing all thing in one function, multliple
 function could be written then one main function 
 calls them, i.e one main function calls subfunctions
 
+### 4 inputs and outputs
+you can take inputs from user with input()
+>x = input('enter a number)
+
+you can output with fprintf() like in c programming
+>fprintf('the value you entered %d', x)
+
+remember %d is to output an integer
+remember...
+%d integer
+%f float
+%s string
+
+### 5 Plotting
+
+
+
