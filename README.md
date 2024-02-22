@@ -1,6 +1,9 @@
 # **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
->**Syntax**
+**Syntax**
+### Building matrix
+>ones(rows,columns) %making matrix having all ones
+>zeros(rowns,column) %making matrix having all zeros
 ### Arithmatic operators
 #### - + / * %
 like any prrogramming language
@@ -57,5 +60,18 @@ NOTE the . can be used for power "^" or for division "/"
 >output = [0.25 0.4 0.5]
 
 ie output is [1/4 2/5 3/6]
+### Functions
+#### syntax
+function [] = func_name(param1, param2, , )
 
- 
+end
+for example:
+function [add, sub] = operations(op1, op2)
+add = op1+op2
+sub = op1-op2
+end
+>operations(6,5)
+>output=[11,1]
+
+thats bec. it returns 11 which is add and 1 which is sub
+
