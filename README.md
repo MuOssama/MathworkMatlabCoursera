@@ -1,9 +1,6 @@
 # **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
 **Syntax**
-### Building matrix
->ones(rows,columns) %making matrix having all ones
->zeros(rowns,column) %making matrix having all zeros
 ### Arithmatic operators
 #### - + / * %
 like any prrogramming language
@@ -19,6 +16,10 @@ bec % in matlab is used for comments
 >output = 1 
 
 ### Matrices operators
+#### Building matrix
+>ones(rows,columns) %making matrix having all ones
+
+>zeros(rows,column) %making matrix having all zeros
 #### Addition and substractions
 the matrix must have the same dimentions
 >x=[1 2 3]; % x is 1 rows 3 coulmns
