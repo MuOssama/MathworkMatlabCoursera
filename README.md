@@ -105,8 +105,7 @@ remember... \
 %u unsigned integer \
 %f float \
 %c char \
-%s string \
-
+%s string\
 ### 5 Plotting
 
 
