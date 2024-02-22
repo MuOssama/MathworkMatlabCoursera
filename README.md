@@ -1,10 +1,14 @@
 # **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
 ## **Content**
-1- Arithmatic operators
-2- Matrices operators
-3- Functions
-4- inputs and outputs
+>1- Arithmatic operators
+
+>2- Matrices operators
+
+>3- Functions
+
+>4- inputs and outputs
+
 **Syntax**
 ### 1 Arithmatic operators
 #### - + / * %
