@@ -1,0 +1,3 @@
+function area = tri_area(l,w)
+area = 0.5*l*w
+end
