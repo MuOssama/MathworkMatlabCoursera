@@ -1,7 +1,12 @@
 # **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
+## **Content**
+1- Arithmatic operators
+2- Matrices operators
+3- Functions
+4- inputs and outputs
 **Syntax**
-### Arithmatic operators
+### 1 Arithmatic operators
 #### - + / * %
 like any prrogramming language
 >output = x + y   
@@ -15,7 +20,7 @@ bec % in matlab is used for comments
 
 >output = 1 
 
-### Matrices operators
+### 2 Matrices operators
 #### Building matrix
 >ones(rows,columns) %making matrix having all ones
 
@@ -61,7 +66,7 @@ NOTE the . can be used for power "^" or for division "/"
 >output = [0.25 0.4 0.5]
 
 ie output is [1/4 2/5 3/6]
-### Functions
+### 3 Functions
 #### syntax
 function [] = func_name(param1, param2, , )
 
@@ -70,6 +75,16 @@ for example:
 function [add, sub] = operations(op1, op2)
 add = op1+op2
 sub = op1-op2
+ 
+NOTE: you can use many functions in one file.m
+but only the first one will be accessed outside
+this is useful when a complex function, so rather
+than writing all thing in one function, multliple 
+function could be written then one main function 
+calls them, i.e one main function calls subfunctions
+
+### 3 Functions
+
 end
 >operations(6,5)
 >output=[11,1]
