@@ -79,19 +79,16 @@ for example:
 function [add, sub] = operations(op1, op2)
 add = op1+op2
 sub = op1-op2
- 
+>operations(6,5)
+
+>output=[11,1]
+
+thats bec. it returns 11 which is add and 1 which is sub
+
 NOTE: you can use many functions in one file.m
 but only the first one will be accessed outside
 this is useful when a complex function, so rather
 than writing all thing in one function, multliple 
 function could be written then one main function 
 calls them, i.e one main function calls subfunctions
-
-### 3 Functions
-
-end
->operations(6,5)
->output=[11,1]
-
-thats bec. it returns 11 which is add and 1 which is sub
 
