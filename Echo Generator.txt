@@ -1,0 +1,26 @@
+function output = echo_gen(input, fs, delay, amp)
+    % Ensure input is a column vector
+    if size(input, 2) > 1
+        input = input';
+    end
+    
+    % Compute number of samples to delay
+    delaySamples = round(delay * fs);
+    
+    % Create the echo by adding delayed and scaled version of the input
+    echo = [zeros(delaySamples, 1); input * amp];
+    
+    % Ensure output length matches the longer of the two vectors
+    outputLength = max(length(input), length(echo));
+    input = [input; zeros(outputLength - length(input), 1)];
+    echo = [echo; zeros(outputLength - length(echo), 1)];
+    
+    % Add the echo to the original signal
+    output = input + echo;
+    
+    % Scale the output to ensure values are within -1 and 1
+    maxVal = max(abs(output));
+    if maxVal > 1
+        output = output / maxVal;
+    end
+end
