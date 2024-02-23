@@ -6,6 +6,8 @@
 >3- Functions\
 >4- inputs and outputs\
 >5- Plotting\
+>6- Loops\
+>Data types
 
 ## **Syntax**
 ### 1 operators
@@ -221,5 +223,35 @@ you can also use for loop to iterate a list like in python prog lang
 this will print all the matrix element
 
 #### while loops
+like for loop but has condition rather than range or a list
+>i=10\
+>while i>0\
+>i= i-1\
+>end\
+### Data types
+#### Numeric Types:
+double: Double-precision floating-point numbers (default for most calculations).\
+single: Single-precision floating-point numbers.\
+int8, int16, int32, int64: Signed integers of different sizes.\
+uint8, uint16, uint32, uint64: Unsigned integers of different sizes.
 
+#### Logical Type:
+logical: Stores true or false values.\
+#### Character and String Types:
+char: Stores single characters.\
+string: Stores sequences of characters (introduced in MATLAB R2016b).
+#### Cell Array:
+cell: Stores heterogeneous data in a single array.
+#### Structure:
+struct: Stores collections of named data fields.
+
+#### Function Handle:
+function_handle: Stores references to functions.
+
+#### Sparse Array:
+sparse: Stores arrays with many zero elements efficiently.
+#### Table:
+table: Stores tabular data (introduced in MATLAB R2013b).
+#### Timetable:
+timetable: Stores time series data (introduced in MATLAB R2016b).
 
