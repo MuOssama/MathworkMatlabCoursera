@@ -1,0 +1,13 @@
+function coded = caesar(text, shift)
+    % Convert text to ASCII codes
+    ascii_text = double(text);
+    
+    % Apply shift to ASCII codes
+    shifted_ascii = ascii_text + shift;
+    
+    % Wrap around if the shifted code goes outside the visible ASCII range
+    shifted_ascii = mod(shifted_ascii - 32, 127 - 32) + 32;
+    
+    % Convert back to characters
+    coded = char(shifted_ascii);
+end
