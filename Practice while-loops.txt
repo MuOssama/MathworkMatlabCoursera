@@ -1,0 +1,8 @@
+function k=next_prime(n)
+while n>0
+    n=n+1
+    if isprime(n)
+        k=n
+        return        
+    end
+end
