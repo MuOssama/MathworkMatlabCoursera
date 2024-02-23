@@ -5,9 +5,9 @@
 >2- Matrices operators\
 >3- Functions\
 >4- inputs and outputs\
->5- Plotting
->5- ح
-**Syntax**
+>5- Plotting\
+
+## **Syntax**
 ### 1 Arithmatic operators
 #### - + / * %
 like any prrogramming language
