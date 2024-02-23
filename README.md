@@ -1,14 +1,15 @@
 # **MathworkMatlabCoursera**
 ## Mathworks Matlab Coursera course solution
 ## **Content**
->1- Arithmatic operators\
+>1- Operators\
 >2- Matrices operators\
 >3- Functions\
 >4- inputs and outputs\
 >5- Plotting\
 
 ## **Syntax**
-### 1 Arithmatic operators
+### 1 operators
+### Arithmatic operators
 #### - + / * %
 like any prrogramming language
 >output = x + y   
@@ -21,7 +22,17 @@ bec % in matlab is used for comments
 >output = mod(10,3)
 
 >output = 1 
-
+### Logical operators
+logic operators\
+& and\
+| or\
+~ not
+### relational operators
+<\
+>\
+==\
+<=\
+>=
 ### 2 Matrices operators
 #### Building matrix
 >ones(rows,columns) %making matrix having all ones
@@ -113,6 +124,7 @@ than writing all thing in one function, multliple
 function could be written then one main function 
 calls them, i.e one main function calls subfunctions
 
+NOTE return statement finishes the function 
 ### 4 inputs and outputs
 you can take inputs from user with input()
 >x = input('enter a number)
@@ -127,6 +139,24 @@ remember... \
 %f float \
 %c char \
 %s string
+#### nargin and nargout
+built-in functions\
+nargin returns the number of inputs\
+nargout returns the number of outputs
+#### local global persistent variables
+local variables: variables that alive in a scope and get deleted after the function excutes\
+global variables: variables that alive in the whole programm and could be called anywhere\
+persistent variables: local variables in the functions but never get deleted, it can be usefel in cases\
+such; you want to keep track a variable like how many time the function get called\
+persistent variables like static local variables in c programming language
+>function out=func(in)\
+>persistent times_called\
+>if isempty(times_called)\
+count = 0; % Initialize count to 0 if it's empty\
+>else\
+>times_called=times_called+1\
+>end\
+>end
 ### 5 Plotting
 to plot functions\
 **for more visual deiatls**
@@ -169,5 +199,24 @@ for closing a figure
 #### closeall()
 for closing all figures
 
+### 6 Loops
+#### for loops
+for loop syntax:\
+for var = range\
+end
+> sum=0
+>for i=1:1:10\
+>sum=sum+i\
+>end\
+>sum=55
+
+you can also use for loop to iterate a list like in python prog lang
+>m = randi(2,2)\
+>for item = m\
+>fprintf('%d\n',item)\
+>end\
+this will print all the matrix element
+
+#### while loops
 
 
