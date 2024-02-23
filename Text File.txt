@@ -1,0 +1,28 @@
+function charnum = char_counter(fname, character)
+    try
+        % Open the file in text mode for reading
+        fid = fopen(fname, 'rt');
+
+        % Check if the file was successfully opened and if character is a character
+        if fid < 0 || ~ischar(character)
+            charnum = -1; % Return -1 if file not found or character is not a character
+        else
+            charnum = 0; % Initialize the character count
+
+            % Read the file line by line
+            oneline = fgets(fid);
+            while ischar(oneline)
+                % Count the occurrences of the character in the line
+                n = strfind(oneline, character);
+                charnum = charnum + length(n);
+                % Read the next line
+                oneline = fgets(fid);
+            end
+        end
+
+        % Close the file
+        fclose(fid);
+    catch
+        charnum = -1; % Return -1 if an error occurs (e.g., file does not exist)
+    end
+end
