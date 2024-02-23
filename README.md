@@ -68,6 +68,29 @@ NOTE the . can be used for power "^" or for division "/"
 >output = [0.25 0.4 0.5]
 
 ie output is [1/4 2/5 3/6]
+
+#### indexing
+>T=ones(3,3) %building a 3x3 matrix all its elements are ones\
+>T(n,m) is to get the element at row n and column m\
+>T(1,1) is to get the element at row one and column one
+#### slicing and ranging
+consider this T matrix\
+T = 1 1 1\
+    2 2 2\
+    3 3 3
+    
+>T(a:b,x:y)
+
+this will get slice of the T matrix from rows a to b and columns from x and y\
+let a =1, b=2, x=1, and y=2
+
+>T(1:2,1:2)
+
+T =\
+1 1\
+2 2\
+this is a sub matrix that slice the first 2 rows and the first t columns of matrix T
+
 ### 3 Functions
 #### syntax
 function [] = func_name(param1, param2, , )
@@ -105,7 +128,7 @@ remember... \
 %c char \
 %s string
 ### 5 Plotting
-to plot functions
+to plot functions\
 **for more visual deiatls**
 NOTE: you can show the matlab live code at : [Matlab Live Code](https://github.com/MuOssama/MathworkMatlabCoursera/blob/main/plottingLiveCode.mlx)\
 NOTE: you can show pdf for matlab live code at: [pdf for the code](https://github.com/MuOssama/MathworkMatlabCoursera/blob/main/plottingLiveCode.pdf])
