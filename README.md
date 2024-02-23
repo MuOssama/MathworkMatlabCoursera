@@ -125,8 +125,12 @@ to plot mutiple function also\
 >hold on\
 >plot(x2,y2) %plotting another functions on the same figure
 
-you can use as alternative:
+you can use plot as alternative:
 >plot(x1,y1,x2,y2)
+
+NOTE: to turn off hold on state
+>hold off
+
 
 
 
