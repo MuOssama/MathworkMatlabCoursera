@@ -138,6 +138,10 @@ NOTE: to turn off hold on state
 ##### xlabel() %to give x axis title
 ##### ylabel() %to give y axis title
 
+#### close()
+for closing a figure
+#### closeall()
+for closing all figures
 
 
 
