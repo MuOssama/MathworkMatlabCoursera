@@ -5,6 +5,9 @@
 >2- Matrices operators\
 >3- Functions\
 >4- inputs and outputs\
+>5- Plotting
+>5- حخ\
+
 
 **Syntax**
 ### 1 Arithmatic operators
@@ -104,6 +107,28 @@ remember... \
 %c char \
 %s string
 ### 5 Plotting
+to plot functions
+#### figure()
+to make a new figure to plot 
+to select existing figure for plotting or editing
+#### plot(x1,y1,options)
+x1 is the horzental vector
+y1 is the vertical options
+options could be 'color' like\
+'b' blue\
+'r' red\
+'k' black\
+#### plot(x1,y1,options,x2,y2,options)
+for multiple plotting on the same figure
+
+#### hold on
+to plot mutiple function also\
+>plot(x1,y1) %plotting first function\
+>hold on\
+>plot(x2,y2) %plotting another functions on the same figure\
+
+you can use as alternative:\
+>plot(x1,y1,x2,y2)
 
 
 
