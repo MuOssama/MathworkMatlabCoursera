@@ -1,0 +1,21 @@
+function distance = get_distance(city1, city2)
+    persistent city_names distances;
+
+    % Load data from Excel file if not already loaded
+    if isempty(city_names)
+        [~, city_names, raw] = xlsread('Distances.xlsx');
+        distances = cell2mat(raw(2:end, 2:end));
+    end
+
+    % Find row and column indices of the cities
+    city1_idx = find(strcmp(city_names(2:end, 1), city1));
+    city2_idx = find(strcmp(city_names(1, 2:end), city2));
+    
+    % Check if both cities are found
+    if isempty(city1_idx) || isempty(city2_idx)
+        distance = -1;
+    else
+        % Look up the distance in the distances matrix
+        distance = distances(city1_idx, city2_idx);
+    end
+end
