@@ -1,0 +1,19 @@
+function matrix = sparse2matrix(cellvec)
+    % Extract size and default value from cell vector
+    size_vec = cellvec{1};
+    rows = size_vec(1);
+    cols = size_vec(2);
+    default_value = cellvec{2};
+    
+    % Initialize matrix with default value
+    matrix = ones(rows, cols) * default_value;
+    
+    % Fill matrix with non-default values
+    for i = 3:length(cellvec)
+        element = cellvec{i};
+        row = element(1);
+        col = element(2);
+        value = element(3);
+        matrix(row, col) = value;
+    end
+end
