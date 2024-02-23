@@ -106,6 +106,9 @@ remember... \
 %s string
 ### 5 Plotting
 to plot functions
+**for more visual deiatls**
+NOTE: you can show the matlab live code at : [Matlab Live Code](https://github.com/MuOssama/MathworkMatlabCoursera/blob/main/plottingLiveCode.mlx)\
+NOTE: you can show pdf for matlab live code at: [pdf for the code](https://github.com/MuOssama/MathworkMatlabCoursera/blob/main/plottingLiveCode.pdf])
 #### figure()
 to make a new figure to plot 
 to select existing figure for plotting or editing
