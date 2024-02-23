@@ -1,0 +1,19 @@
+function [summa, index] = max_sum(v, n)
+    summa = 0;
+    index = -1;
+    
+    if n > length(v)
+        return;
+    end
+    
+    max_summa = -inf;
+    for i = 1:(length(v) - n + 1)
+        current_sum = sum(v(i:i+n-1));
+        if current_sum > max_summa
+            max_summa = current_sum;
+            index = i;
+        end
+    end
+    
+    summa = max_summa;
+end
