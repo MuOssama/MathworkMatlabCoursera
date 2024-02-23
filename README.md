@@ -131,6 +131,13 @@ you can use plot as alternative:
 NOTE: to turn off hold on state
 >hold off
 
+#### styling the graph
+##### grid() %to show grids on the figure
+##### title() %to add title to the figure
+##### legand() %to show what color related to which graph
+##### xlabel() %to give x axis title
+##### ylabel() %to give y axis title
+
 
 
 
