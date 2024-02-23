@@ -1,0 +1,12 @@
+function indices = saddle(M)
+    indices = [];
+    [rows, cols] = size(M);
+    
+    for i = 1:rows
+        for j = 1:cols
+            if M(i,j) == max(M(i,:)) && M(i,j) == min(M(:,j))
+                indices = [indices; i, j];
+            end
+        end
+    end
+end
