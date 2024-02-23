@@ -1,0 +1,10 @@
+function summa=halfsum(m)
+summa = 0
+[r,c]= size(m)
+for i= 1:1:r
+    for j=1:1:c
+        if j>=i
+            summa = summa + m(i,j)
+        end
+    end
+end
