@@ -28,11 +28,7 @@ logic operators\
 | or\
 ~ not
 ### relational operators
-<\
->\
-==\
-<=\
->=
+< > == <= >=
 ### 2 Matrices operators
 #### Building matrix
 >ones(rows,columns) %making matrix having all ones
@@ -214,7 +210,8 @@ you can also use for loop to iterate a list like in python prog lang
 >m = randi(2,2)\
 >for item = m\
 >fprintf('%d\n',item)\
->end\
+>end
+
 this will print all the matrix element
 
 #### while loops
