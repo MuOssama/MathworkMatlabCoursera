@@ -1,0 +1,25 @@
+function output = blur(img, w)
+    % Get the size of the image
+    [height, width] = size(img);
+
+    % Initialize output as a matrix of zeros with the same size as img
+    output = zeros(size(img));
+
+    % Iterate over each pixel in the image
+    for i = 1:height
+        for j = 1:width
+            % Calculate the boundaries of the submatrix
+            top = max(1, i - w);
+            bottom = min(height, i + w);
+            left = max(1, j - w);
+            right = min(width, j + w);
+
+            % Extract the submatrix and calculate the mean
+            submatrix = img(top:bottom, left:right);
+            output(i, j) = mean(submatrix(:));
+        end
+    end
+
+    % Convert output to uint8
+    output = uint8(output);
+end
