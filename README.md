@@ -6,9 +6,7 @@
 >3- Functions\
 >4- inputs and outputs\
 >5- Plotting
->5- حخ\
-
-
+>5- ح
 **Syntax**
 ### 1 Arithmatic operators
 #### - + / * %
@@ -125,9 +123,9 @@ for multiple plotting on the same figure
 to plot mutiple function also\
 >plot(x1,y1) %plotting first function\
 >hold on\
->plot(x2,y2) %plotting another functions on the same figure\
+>plot(x2,y2) %plotting another functions on the same figure
 
-you can use as alternative:\
+you can use as alternative:
 >plot(x1,y1,x2,y2)
 
 
