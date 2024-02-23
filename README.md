@@ -80,6 +80,12 @@ ie output is [1/4 2/5 3/6]
 >T=ones(3,3) %building a 3x3 matrix all its elements are ones\
 >T(n,m) is to get the element at row n and column m\
 >T(1,1) is to get the element at row one and column one
+#### logical indexing
+consider matrix m = [1 3 5 9]\
+you can find the elements that satsfiy some condition like item>3\
+which are [5 9] without looping\
+>items = m(m>3)\
+>items = [5 9]
 #### slicing and ranging
 consider this T matrix\
 T = 1 1 1\
