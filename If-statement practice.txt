@@ -1,0 +1,7 @@
+function out=picker(c,in1,in2)
+if c
+    out = in1;
+else 
+    out = in2;
+end
+end
